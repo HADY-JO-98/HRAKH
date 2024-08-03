@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navigator
+{
+    width: 100%;
+    height: 80px;
+    background-color:#ecc5c0 ;
+    margin-bottom: 30px;
+    /* padding: 2px 0px 18px; */
+    padding: 0em 2em ;
+    font-size: 29px;
+    color: #000;
+    /* position:relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    /* display:inline-block;
+    width:10%;
+    margin: 5px;
+    padding: 5px; */
+    padding: 7px;
+    justify-content: flex-start;
+    height: 70px ;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    color: #000;
+    /* font-size: 29; */
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+a{
+    color:#000;
+}
+.data
+{
+    width: 100%;
+    height: 100vh;
+}
+.info {
+    width: 30%;
+    height: 418px;
+    text-align: center;
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 20px grey;
+}
+.pic{
+    width:100%;
+    height: 139px;
+    border-radius: 50%;
+}
+.discr
+{
+    width: 101%;
+    height: 103px;
+    padding:1%;
+    margin:1%;
+    text-align: center;
+}
+.disc{
+    border-radius: 10px;
+    box-shadow:0px 2px 20px rgb(192, 192, 192);
+    padding: 3%;
+    margin: 2%;
+}
+.cont
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit
+{
+    background-color: #cf9c95;
+    text-align: center;
+    border: 1px solid #cf9c95;
+    height: 31px;
+    width:93%;
+    border-radius: 9px;  
+    margin: 2%;
+    color:rgb(91,81,26)
+}
+.edit:hover{
+    color:#fff;
+    box-shadow:0px 2px 20px grey;
+}
+
+@media screen and (max-width: 811px)
+ {   .info{
+     width:30%;
+     height: 21em;
+    }
+    .disc{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 561px)
+ {   .info{
+     width:30%;
+
+     height: 21em;
+    }
+    .disc{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 490px)
+ {   .info{
+     width:30%;
+     height: 21em;
+    }
+    .disc{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 490px)
+ {   .info{
+     width:30%;
+     height: 21em;
+    }
+    .disc{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 330px)
+ {   .info{
+     width:30%;
+     height: 21em;
+    }
+    .disc{
+        font-size: 7px;
+    }
+}

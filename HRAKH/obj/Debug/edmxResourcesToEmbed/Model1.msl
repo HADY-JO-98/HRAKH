@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PROBLOSModelStoreContainer" CdmEntityContainer="PROBLOSEntities">
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="PROBLOSModel.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="id_category" ColumnName="id_category" />
+          <ScalarProperty Name="category_name" ColumnName="category_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="PROBLOSModel.customer">
+        <MappingFragment StoreEntitySet="customers">
+          <ScalarProperty Name="id_customer" ColumnName="id_customer" />
+          <ScalarProperty Name="customer_name" ColumnName="customer_name" />
+          <ScalarProperty Name="customer_email" ColumnName="customer_email" />
+          <ScalarProperty Name="customer_username" ColumnName="customer_username" />
+          <ScalarProperty Name="customer_password" ColumnName="customer_password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="PROBLOSModel.employee">
+        <MappingFragment StoreEntitySet="employees">
+          <ScalarProperty Name="id_employee" ColumnName="id_employee" />
+          <ScalarProperty Name="employee_name" ColumnName="employee_name" />
+          <ScalarProperty Name="employee_email" ColumnName="employee_email" />
+          <ScalarProperty Name="employee_username" ColumnName="employee_username" />
+          <ScalarProperty Name="employee_password" ColumnName="employee_password" />
+          <ScalarProperty Name="id_category" ColumnName="id_category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="PROBLOSModel.order">
+        <MappingFragment StoreEntitySet="orders">
+          <ScalarProperty Name="id_order" ColumnName="id_order" />
+          <ScalarProperty Name="order_price" ColumnName="order_price" />
+          <ScalarProperty Name="id_customer" ColumnName="id_customer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_Order">
+      <EntityTypeMapping TypeName="PROBLOSModel.P_Order">
+        <MappingFragment StoreEntitySet="P_Order">
+          <ScalarProperty Name="id_order" ColumnName="id_order" />
+          <ScalarProperty Name="id_product" ColumnName="id_product" />
+          <ScalarProperty Name="n_of_p" ColumnName="n_of_p" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="payments">
+      <EntityTypeMapping TypeName="PROBLOSModel.payment">
+        <MappingFragment StoreEntitySet="payment">
+          <ScalarProperty Name="id_payment" ColumnName="id_payment" />
+          <ScalarProperty Name="full_name" ColumnName="full_name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="exp_year" ColumnName="exp_year" />
+          <ScalarProperty Name="name_on_card" ColumnName="name_on_card" />
+          <ScalarProperty Name="credit_card_number" ColumnName="credit_card_number" />
+          <ScalarProperty Name="exp_month" ColumnName="exp_month" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="PROBLOSModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="id_product" ColumnName="id_product" />
+          <ScalarProperty Name="product_price" ColumnName="product_price" />
+          <ScalarProperty Name="product_img" ColumnName="product_img" />
+          <ScalarProperty Name="id_category" ColumnName="id_category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="PROBLOSModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="C_P" TypeName="PROBLOSModel.C_P" StoreEntitySet="C_P">
+      <EndProperty Name="customers">
+        <ScalarProperty Name="id_customer" ColumnName="id_customer" />
+      </EndProperty>
+      <EndProperty Name="payment">
+        <ScalarProperty Name="id_payment" ColumnName="id_payment" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

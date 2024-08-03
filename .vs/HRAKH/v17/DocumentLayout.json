@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|c:\\users\\hady jo\\desktop\\hrakh\\hrakh\\accessories.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\accessories.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|C:\\Users\\Hady JO\\Desktop\\HRAKH\\hrakh\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|c:\\users\\hady jo\\desktop\\hrakh\\hrakh\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|c:\\users\\hady jo\\desktop\\hrakh\\hrakh\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|c:\\users\\hady jo\\desktop\\hrakh\\hrakh\\css\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\css\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|C:\\Users\\Hady JO\\Desktop\\HRAKH\\hrakh\\accessories.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\accessories.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|c:\\users\\hady jo\\desktop\\hrakh\\hrakh\\watches.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\watches.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|c:\\users\\hady jo\\desktop\\hrakh\\hrakh\\category.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\category.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|C:\\Users\\Hady JO\\Desktop\\HRAKH\\hrakh\\perfumes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\perfumes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|C:\\Users\\Hady JO\\Desktop\\HRAKH\\hrakh\\leather.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\leather.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|C:\\Users\\Hady JO\\Desktop\\HRAKH\\hrakh\\glasses.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\glasses.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|C:\\Users\\Hady JO\\Desktop\\HRAKH\\hrakh\\flowers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B0A0BA5A-2D7F-4DA0-864A-54E11CB503F9}|HRAKH\\HRAKH.csproj|solutionrelative:hrakh\\flowers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 123,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cart.css",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\css\\Cart.css",
+              "RelativeDocumentMoniker": "HRAKH\\css\\Cart.css",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\css\\Cart.css",
+              "RelativeToolTip": "HRAKH\\css\\Cart.css",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-17T03:10:43.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cart.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\cart.aspx.cs",
+              "RelativeDocumentMoniker": "HRAKH\\cart.aspx.cs",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\cart.aspx.cs",
+              "RelativeToolTip": "HRAKH\\cart.aspx.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:51:36.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cart.aspx",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\cart.aspx",
+              "RelativeDocumentMoniker": "HRAKH\\cart.aspx",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\cart.aspx",
+              "RelativeToolTip": "HRAKH\\cart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-17T02:50:47.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "accessories.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\accessories.aspx.cs",
+              "RelativeDocumentMoniker": "HRAKH\\accessories.aspx.cs",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\accessories.aspx.cs",
+              "RelativeToolTip": "HRAKH\\accessories.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:37:07.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "flowers.aspx",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\flowers.aspx",
+              "RelativeDocumentMoniker": "HRAKH\\flowers.aspx",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\flowers.aspx",
+              "RelativeToolTip": "HRAKH\\flowers.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T23:00:06.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "category.Master",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\category.Master",
+              "RelativeDocumentMoniker": "HRAKH\\category.Master",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\category.Master",
+              "RelativeToolTip": "HRAKH\\category.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-17T02:16:08.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "default.aspx",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\default.aspx",
+              "RelativeDocumentMoniker": "HRAKH\\default.aspx",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\default.aspx",
+              "RelativeToolTip": "HRAKH\\default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-17T00:07:23.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "watches.aspx",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\watches.aspx",
+              "RelativeDocumentMoniker": "HRAKH\\watches.aspx",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\watches.aspx",
+              "RelativeToolTip": "HRAKH\\watches.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T23:00:17.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "perfumes.aspx",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\perfumes.aspx",
+              "RelativeDocumentMoniker": "HRAKH\\perfumes.aspx",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\perfumes.aspx",
+              "RelativeToolTip": "HRAKH\\perfumes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T23:00:16.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "leather.aspx",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\leather.aspx",
+              "RelativeDocumentMoniker": "HRAKH\\leather.aspx",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\leather.aspx",
+              "RelativeToolTip": "HRAKH\\leather.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T23:00:14.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "glasses.aspx",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\glasses.aspx",
+              "RelativeDocumentMoniker": "HRAKH\\glasses.aspx",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\glasses.aspx",
+              "RelativeToolTip": "HRAKH\\glasses.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T23:00:08.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "accessories.aspx",
+              "DocumentMoniker": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\accessories.aspx",
+              "RelativeDocumentMoniker": "HRAKH\\accessories.aspx",
+              "ToolTip": "C:\\Users\\Hady JO\\Desktop\\HRAKH\\HRAKH\\accessories.aspx",
+              "RelativeToolTip": "HRAKH\\accessories.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T21:33:44.92Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

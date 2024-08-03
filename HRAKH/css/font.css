@@ -1,0 +1,27 @@
+header{
+    background-image: url(image/car.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+.icon{
+ width:30px;
+height:30px;
+border: solid rgba(255, 0, 0, 0.504);
+
+
+}
+.title h2{
+font-size:90px;
+color: aliceblue;
+font-weight: 800;
+}
+.title h3{
+    font-size:45px;
+    color:black;
+    font-weight: 800;
+}
+a{
+   color: rgba(15, 224, 89, 0.981);
+}
+    

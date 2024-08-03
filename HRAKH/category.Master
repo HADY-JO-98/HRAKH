@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="category.Master.cs" Inherits="HRAKH.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server"><meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="BLossom is an e-commerce site that sells perfums, flowers, lesather goods, watches, glasses, and accessories. We also have the quality that you want with perfect price.">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="keywords" content="Blossom, Perfums, Flowers, Accessories, Leather goods, Leather, Watches, Glasses">
+    <meta name="author" content="Hady Jmal Omer, Karas Medhat, Hagar Ghazal, Rana EL-Sherbieny"/>
+    <title>𝓑𝓵𝓸𝓼𝓼𝓸𝓶</title>
+    <link rel="mask-icon" href="images/blossom-logo-1.jpg" sizes="any" type="image/svg+xml">
+    <link href="css/category.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="flowers/flowers.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navigator" id="W">
+            <div class="logo">
+                <img src="images/logo.jpeg" alt="blossom logo" class="logo">
+                <asp:ContentPlaceHolder ID="pagetitlenav" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div class="icons">
+                <a href="default.aspx"> <i class="fa fa-home"></i></a>
+                <a href="account.aspx"> <i class="fa fa-user"></i></a>
+                <a href="cart.aspx"> <i class="fa fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+        <div class="dropdown" id="dd">
+        <p class="dots"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></p>  
+            <div class="dropc">
+                <p class="cont">  <a href="perfumes.aspx" class="cont">Perfumes </a></p>
+                <p class="cont">  <a href="glasses.aspx" class="cont">glasses </a></p>
+                <p class="cont">  <a href="accessories.aspx" class="cont"> Jewelry </a></p>
+                <p class="cont">  <a href="watches.aspx" class="cont">Watches </a></p>
+                <p class="cont">  <a href="leather.aspx" class="cont">Leathers</a></p>
+                <p class="cont">  <a href="flowers.aspx"  class="cont"> Flowers </a></p>
+            </div>
+        </div>
+        <div class="backup" id="bup">
+            <a href ="#W"    >
+                <i class="fa fa-arrow-up"></i>
+            </a>
+        </div>
+            <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+            </asp:ContentPlaceHolder>
+        <footer>
+            <div class="containar text-center">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="images/blossom-logo-1.jpg" alt="blossom logo" class="logo">
+                        <div class="dis">
+                            Blossom is an e-commerce store to sell poquies, watches, accessories, glasses, leather goods, and perfumes
+                        </div>
+                        <div class="disteam">
+                            We hope you find this site well. <br/>
+                            Our pleasure, <br/>
+                            Blossom Team
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="row">
+                            <div class="col-8 col-sm-6">
+                                <h3>
+                                    <b>
+                                        Links
+                                    </b>
+                                </h3>
+                                <div class="pages">
+                                    <div class="pages">
+                                        <a href="default.aspx" class="linkpage">Home</a><br/>
+                                        <a href="account.aspx" class="linkpage">Account</a><br/>
+                                        <a href="accessories.aspx" class="linkpage">Accessories</a><br/>
+                                        <a href="glasses.aspx" class="linkpage">Glasses</a><br/>
+                                        <a href="leather.aspx" class="linkpage">Leather goods</a><br/>
+                                        <a href="perfumes.aspx" class="linkpage">Perfumes</a><br/>
+                                        <a href="flower.aspx" class="linkpage">Poquies</a><br/>
+                                        <a href="watches.aspx" class="linkpage">Watches</a><br/>
+                                        <a href="cart.aspx" class="linkpage">cart</a><br/>
+                                        <a href="payment.aspx" class="linkpage">Payment</a><br/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 col-sm-6">
+                                <h3>
+                                    <b>
+                                        Team members
+                                    </b>
+                                </h3>
+                                <ul>
+                                    <li>HADY JMAL OMER</li>
+                                    <div class="social">
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-telegram"></i>
+                                        <i class="fa fa-github"></i>
+                                    </div>
+                                    <li>AHMED ABD-ELAZIZ ABO ELELA</li>
+                                    <div class="social">
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-telegram"></i>
+                                        <i class="fa fa-github"></i>
+                                    </div>
+                                    <li>KARAS MEDHAT</li>
+                                    <div class="social">
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-telegram"></i>
+                                        <i class="fa fa-github"></i>
+                                    </div>
+                                    <li>HAGAR RAMADAN</li>
+                                    <div class="social">
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-telegram"></i>
+                                        <i class="fa fa-github"></i>
+                                    </div>
+                                    <li>RANA ELSHERBIENY</li>
+                                    <div class="social">
+                                        <i class="fa fa-facebook"></i>
+                                        <i class="fa fa-instagram"></i>
+                                        <i class="fa fa-telegram"></i>
+                                        <i class="fa fa-github"></i>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/backup.js"></script>
+        <script src="js/dropdown.js"></script>
+    </form>
+</body>
+</html>

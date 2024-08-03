@@ -1,0 +1,42 @@
+.nav {
+    text-align: center;
+    background-color: #ecc5c0;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div {
+    display: inline-block;
+    border-collapse: collapse;
+    border: .1px solid rgb(50, 49, 49);
+    width: 350px;
+    height: 400px;
+    margin: 2px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#img {
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 335px;
+    height: 350px;
+    display: inline-block;
+}
+
+
+
+button {
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 180px;
+    background-color: #ecc5c0;
+}
+
+.link {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(91, 81, 26);
+    background-color: #ecc5c0;
+}

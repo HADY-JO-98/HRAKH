@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #FFE5D4 60%, #EFC7C2 40.1%);
+    width:100%;
+}
+
+    .container .formact {
+        padding: 20px;
+        width: 700px;
+        background: #fff;
+        box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    }
+
+        .container .formact .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+            .container .formact .row .col {
+                flex: 1 1 250px;
+            }
+
+                .container .formact .row .col .title {
+                    font-size: 20px;
+                    color: #333;
+                    padding-bottom: 5px;
+                    text-transform: uppercase;
+                }
+
+                .container .formact .row .col .inputBox {
+                    margin: 15px 0;
+                }
+
+                    .container .formact .row .col .inputBox span {
+                        margin-bottom: 10px;
+                        display: block;
+                    }
+
+                    .container .formact .row .col .inputBox .data {
+                        width: 100%;
+                        border: 1px solid #ccc;
+                        padding: 10px 15px;
+                        font-size: 15px;
+                        text-transform: none;
+                    }
+
+                        .container .formact .row .col .inputBox .data:hover {
+                            border-radius: 15px;
+                            border: 1px solid #000;
+                            box-shadow: 0 7px 15px rgba(0,0,0,.5);
+                        }
+
+                        .container .formact .row .col .inputBox .data:focus {
+                            border-radius: 15px;
+                            border: 1px solid #000;
+                            box-shadow: 0 7px 15px rgba(0,0,0,1);
+                        }
+
+                .container .formact .row .col .flex {
+                    display: flex;
+                    gap: 15px;
+                }
+
+                    .container .formact .row .col .flex .inputBox {
+                        margin-top: 5px;
+                        width: 100%;
+                    }
+
+                .container .formact .row .col .inputBox img {
+                    display: inline-block;
+                    height: 34px;
+                    margin-top: 5px;
+                    filter: drop-shadow(0 0 1px #000);
+                }
+
+        .container .formact .submit-btn {
+            width: 100%;
+            padding: 12px;
+            font-size: 17px;
+            background: #008080;
+            color: #fff;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+
+            .container .formact .submit-btn:hover {
+                background: #420080;
+            }

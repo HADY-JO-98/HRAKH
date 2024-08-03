@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pro_blossomModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="C_P">
+    <Key>
+      <PropertyRef Name="id_customer" />
+      <PropertyRef Name="id_payment" />
+    </Key>
+    <Property Name="id_customer" Type="int" Nullable="false" />
+    <Property Name="id_payment" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="id_category" />
+    </Key>
+    <Property Name="id_category" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="category_name" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="customers">
+    <Key>
+      <PropertyRef Name="id_customer" />
+    </Key>
+    <Property Name="id_customer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="customer_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="customer_email" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="customer_username" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="customer_password" Type="text" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'pro_blossom.dbo.employee' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="employee">
+          <Property Name="id" Type="int" />
+          <Property Name="Fname" Type="varchar" MaxLength="50" />
+          <Property Name="Lname" Type="varchar" MaxLength="50" />
+          <Property Name="Address" Type="varchar" MaxLength="255" />
+        </EntityType>-->
+  <EntityType Name="employees">
+    <Key>
+      <PropertyRef Name="id_employee" />
+    </Key>
+    <Property Name="id_employee" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="employee_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="employee_email" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="employee_username" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="employee_password" Type="text" Nullable="false" />
+    <Property Name="id_category" Type="int" />
+  </EntityType>
+  <EntityType Name="orders">
+    <Key>
+      <PropertyRef Name="id_order" />
+    </Key>
+    <Property Name="id_order" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="order_price" Type="money" Nullable="false" />
+    <Property Name="id_customer" Type="int" />
+  </EntityType>
+  <EntityType Name="P_Order">
+    <Key>
+      <PropertyRef Name="id_order" />
+      <PropertyRef Name="id_product" />
+    </Key>
+    <Property Name="id_order" Type="int" Nullable="false" />
+    <Property Name="id_product" Type="int" Nullable="false" />
+    <Property Name="n_of_p" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="payment">
+    <Key>
+      <PropertyRef Name="id_payment" />
+    </Key>
+    <Property Name="id_payment" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="full_name" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="city" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="exp_year" Type="int" Nullable="false" />
+    <Property Name="name_on_card" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="credit_card_number" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="exp_month" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="id_product" />
+    </Key>
+    <Property Name="id_product" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="product_price" Type="money" Nullable="false" />
+    <Property Name="product_img" Type="varchar(max)" />
+    <Property Name="id_category" Type="int" />
+  </EntityType>
+  <Association Name="FK__C_P__id_customer__4D94879B">
+    <End Role="customers" Type="Self.customers" Multiplicity="1" />
+    <End Role="C_P" Type="Self.C_P" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customers">
+        <PropertyRef Name="id_customer" />
+      </Principal>
+      <Dependent Role="C_P">
+        <PropertyRef Name="id_customer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__C_P__id_payment__4E88ABD4">
+    <End Role="payment" Type="Self.payment" Multiplicity="1" />
+    <End Role="C_P" Type="Self.C_P" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="payment">
+        <PropertyRef Name="id_payment" />
+      </Principal>
+      <Dependent Role="C_P">
+        <PropertyRef Name="id_payment" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__employees__id_ca__440B1D61">
+    <End Role="category" Type="Self.category" Multiplicity="0..1" />
+    <End Role="employees" Type="Self.employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="id_category" />
+      </Principal>
+      <Dependent Role="employees">
+        <PropertyRef Name="id_category" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__orders__id_custo__3A81B327">
+    <End Role="customers" Type="Self.customers" Multiplicity="0..1" />
+    <End Role="orders" Type="Self.orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customers">
+        <PropertyRef Name="id_customer" />
+      </Principal>
+      <Dependent Role="orders">
+        <PropertyRef Name="id_customer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__P_Order__id_orde__46E78A0C">
+    <End Role="orders" Type="Self.orders" Multiplicity="1" />
+    <End Role="P_Order" Type="Self.P_Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="orders">
+        <PropertyRef Name="id_order" />
+      </Principal>
+      <Dependent Role="P_Order">
+        <PropertyRef Name="id_order" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__P_Order__id_prod__47DBAE45">
+    <End Role="product" Type="Self.product" Multiplicity="1" />
+    <End Role="P_Order" Type="Self.P_Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="id_product" />
+      </Principal>
+      <Dependent Role="P_Order">
+        <PropertyRef Name="id_product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__product__id_cate__412EB0B6">
+    <End Role="category" Type="Self.category" Multiplicity="0..1" />
+    <End Role="product" Type="Self.product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="id_category" />
+      </Principal>
+      <Dependent Role="product">
+        <PropertyRef Name="id_category" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="pro_blossomModelStoreContainer">
+    <EntitySet Name="C_P" EntityType="Self.C_P" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="category" EntityType="Self.category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="customers" EntityType="Self.customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employees" EntityType="Self.employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="orders" EntityType="Self.orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="P_Order" EntityType="Self.P_Order" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="payment" EntityType="Self.payment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="product" EntityType="Self.product" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__C_P__id_customer__4D94879B" Association="Self.FK__C_P__id_customer__4D94879B">
+      <End Role="customers" EntitySet="customers" />
+      <End Role="C_P" EntitySet="C_P" />
+    </AssociationSet>
+    <AssociationSet Name="FK__C_P__id_payment__4E88ABD4" Association="Self.FK__C_P__id_payment__4E88ABD4">
+      <End Role="payment" EntitySet="payment" />
+      <End Role="C_P" EntitySet="C_P" />
+    </AssociationSet>
+    <AssociationSet Name="FK__employees__id_ca__440B1D61" Association="Self.FK__employees__id_ca__440B1D61">
+      <End Role="category" EntitySet="category" />
+      <End Role="employees" EntitySet="employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__orders__id_custo__3A81B327" Association="Self.FK__orders__id_custo__3A81B327">
+      <End Role="customers" EntitySet="customers" />
+      <End Role="orders" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__P_Order__id_orde__46E78A0C" Association="Self.FK__P_Order__id_orde__46E78A0C">
+      <End Role="orders" EntitySet="orders" />
+      <End Role="P_Order" EntitySet="P_Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK__P_Order__id_prod__47DBAE45" Association="Self.FK__P_Order__id_prod__47DBAE45">
+      <End Role="product" EntitySet="product" />
+      <End Role="P_Order" EntitySet="P_Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK__product__id_cate__412EB0B6" Association="Self.FK__product__id_cate__412EB0B6">
+      <End Role="category" EntitySet="category" />
+      <End Role="product" EntitySet="product" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

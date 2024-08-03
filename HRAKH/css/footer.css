@@ -1,0 +1,79 @@
+.text-center{
+    display: block;
+    margin-top: 20px;
+    background-color: #E3BC9A;
+    font-size: 24px ;
+    text-align: center;
+    width: 100%;
+}
+
+.text-center .row .col-sm-3 .footlogo{
+    margin:25px;
+    width: 256px;
+    height: 160px;
+    border: #000 1px solid ;
+    border-radius: 25px;
+    padding:7px;
+}
+
+.text-center .row .col-sm-3 .disc-blos{
+    display: block;
+    margin: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.dis{
+    margin-top: 0px;
+}
+
+.text-center .row .col-sm-9 .row .col-8 .linkpage {
+    display: inline-block;
+    margin: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    list-style: none;
+    font-size: 14px;
+    padding: 5px;
+    border-left: #000 2px solid;
+    border-right: #000 2px solid;
+    transition: border .15s;
+    color: #000;
+}
+
+.text-center .row .col-sm-9 .row .col-8 .linkpage:hover{
+    /* transform: ; */
+    text-decoration:none;
+    border-left: #000 0px solid;
+    border-right: #000 0px solid;
+    border-top: #000 2px solid;
+    border-bottom: #000 2px solid;
+}
+
+/*.text-center .row .col-sm-9 .row .col-8 .li{
+    display: inline-block;
+    margin: 15px;
+    list-style:none;
+    font-size: 18px;
+    padding: 5px;
+    border-left: #000 2px solid;
+    border-right: #000 2px solid;
+    transition: border .15s;
+    color:#000;
+}*/
+
+/* .text-center .row .col-sm-9 .row .col-8 .li:hover{
+    transform: ;
+    border-left: #000 0px solid;
+    border-right: #000 0px solid;
+    border-top: #000 2px solid;
+    border-bottom: #000 2px solid;
+}
+*/
+
+.text-center .row .col-sm-9 .col-sm-6 li {
+    margin: 5px;
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 14px;
+}
